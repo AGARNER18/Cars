@@ -1,14 +1,7 @@
-install.packages("caret")
-install.packages("VGAM")
-install.packages("nnet")
-install.packages("e1071")
 library(e1071)
 library("nnet")
 library(VGAM)
 library(caret)
-
-# set working directory
-setwd("C:/Users/Amber/Desktop/Big Data/class_kaggle")
 
 # load cars data
 car_eval<-read.csv("cars-train.csv")
